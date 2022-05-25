@@ -1,2 +1,2 @@
-# simple-login-page
-simple login page via Html &amp;Css
+# simple-signup-page
+simple signup page via Html &amp;Css
