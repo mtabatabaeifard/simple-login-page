@@ -150,3 +150,6 @@ main {
   border: 0.1rem solid rgba(82, 76, 76, 0.38);
   border-radius: 1rem;
 }
+.inp input::placeholder{
+  padding-left: 1rem;
+}
