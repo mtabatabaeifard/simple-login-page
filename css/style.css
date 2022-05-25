@@ -1,0 +1,152 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+}
+/* utils */
+.d-flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+/* components */
+.btn {
+  background: #ffffff;
+  width: 20.6rem;
+  height: 5.8rem;
+  border: 0.1rem solid rgba(82, 76, 76, 0.38);
+  border-radius: 1rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.12em;
+  color: rgba(82, 76, 76, 0.38);
+}
+.signup-btn {
+  width: 17.7rem;
+  height: 5.2rem;
+  background-color: rgba(82, 76, 76, 0.72);
+  border: 0.1rem solid rgba(82, 76, 76, 0.38);
+  color: #fff;
+  border-radius: 3rem;
+  margin: 0 auto;
+}
+/* main */
+main {
+  display: flex;
+  justify-content: center;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  margin-left:16.4rem ;
+}
+.signup {
+  background-color: #fffbfa;
+  justify-content: center;
+  border-radius: 4.2rem;
+  width: 90%;
+  height: 80rem;
+}
+.img {
+  color: transparent;
+  background-image: url("/images/mac.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 4.2rem;
+  border-bottom-left-radius: 4.2rem;
+}
+.header-forms {
+    margin-top: 4.8rem;
+  color: #524c4c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 54.2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 6.5rem;
+}
+.header-subtitle {
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.header-subtitle::before {
+  content: "";
+  width: 15.4rem;
+  height: 0;
+  border: 0.1rem solid rgba(82, 76, 76, 0.38);
+  background-color: rgba(82, 76, 76, 0.38);
+  border-radius: 1rem;
+}
+.header-subtitle::after {
+  content: "";
+  width: 15.4rem;
+  height: 0;
+  border: 0.1rem solid rgba(82, 76, 76, 0.38);
+  background-color: rgba(82, 76, 76, 0.38);
+  border-radius: 1rem;
+}
+.btn-logo-google {
+  display: inline-block;
+  background-image: url("/images/google.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: transparent;
+}
+.btn-logo-facebook {
+  display: inline-block;
+  background-image: url("/images/logos_facebook.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: transparent;
+}
+.using-facebook-google {
+  display: flex;
+  justify-content: center;
+  padding: 4.6rem;
+}
+.forms {
+  flex-direction: column;
+}
+.user-info {
+  align-items: center;
+}
+.signup-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #524c4cb8;
+  gap: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.inp input {
+  display: flex;
+  flex-direction: column;
+  width: 53.7rem;
+  height: 5.8rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(82, 76, 76, 0.38);
+  border-radius: 1rem;
+}

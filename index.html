@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>SignUp</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <main>
+      <div class="signup d-flex">
+        <div class="img">this is image</div>
+        <div class="right-side">
+          <div class="header-forms d-flex justify-center">
+            <h1>Hey, We are glad you chose Quick learner</h1>
+          </div>
+          <div class="header-subtitle d-flex">Lets get started</div>
+          <div class="forms d-flex">
+            <div class="using-facebook-google">
+                <button style="margin-right:8.5rem ;" class="btn"><i class="btn-logo-google">Goo</i>Google account</button>
+                <button class="btn"><i class="btn-logo-facebook">Fac</i>Facebook account</button>
+            </div>
+            <div class="user-info d-flex justify-center">
+                <form action="#" class="signup-form">
+                    <div class="inp">
+                        <label for="name">Name</label>
+                        <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Enter your full name"
+                        />
+                        <label for="mobileNumber">Mobile number</label>
+                        <input type="text" name="mobileNumber" id="mobileNumber" placeholder="Enter your phone number"/>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Please enter your email address"/>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Please enter your password"/>
+                    </div>
+                        <input class="signup-btn" type="submit" value="SignUp">
+                </form>
+            </div>
+            </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
